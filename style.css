@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  padding: 0;
+  font-family: roboto;
+}
+header {
+  display: flex;
+  padding: 132px 121px;
+  justify-content: space-between;
+  align-items: center;
+}
+.never {
+  display: flex;
+  align-items: center;
+}
+ol {
+  display: flex;
+  gap: 30px;
+}
+header h2 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 42.19px;
+}
+.zakaz {
+  display: flex;
+  align-items: center;
+  padding: 50px 122px;
+  gap: 60px;
+  
+}
+.zakazat {
+  margin-left: 500px;
+  padding: 10px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 58px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #b90160, #2e3192);
+}
+@media (max-width: 862px) {
+  ol {
+    display: none;
+  }
+}
+@media (max-width: 396px) {
+  .when {
+    margin-left: 130px;
+    font-size: 30px;
+    width: 600px;
+  }
+  .Material {
+    margin-left: 180px;
+  }
+}
+@media (max-width: 1173px) {
+  .price {
+    max-width: 290px;
+    max-height: 130px;
+  }
+  footer {
+    padding: 152px 103px;
+  }
+}
+@media(max-width:1026px){
+ .flex{
+  flex-direction: column;
+  
+ }
+ .vas{
+
+  display: flex;
+  justify-content: start;
+
+ }
+}
+@media (max-width: 1118px){
+  .Material{
+    flex-direction: column;
+  }
+  .flex{
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .price{
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+}
+@media (max-width: 920px){
+.peoplee{
+  flex-direction: column;
+
+}
+ .small{
+  width: 300px;
+  height: 200px;
+  
+ }
+ .dolor{
+  width: 600px;
+  height: 200px;
+  padding: 10px 15px;
+  font-size: 20px;
+ }
+ footer{
+  flex-direction: column;
+ }
+.lure{
+  flex-direction: column;
+}
+ 
+}
+
+@media (max-width: 1134px) {
+  .price {
+    width: 300px;
+    max-height: 130px;
+    font-size: 10px;
+}}
+.when {
+  font-family: roboto;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+.eva {
+  background: linear-gradient(to bottom, #ce1072, #2026ce);
+  background-clip: text;
+  color: transparent;
+}
+.Material {
+  display: flex;
+  padding-left: 45px;
+  gap: 30px;
+  padding-top: 120px;
+  padding-bottom: 225px;
+  flex-wrap: wrap;
+}
+.ipsum {
+  box-shadow: 11px 11px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 9px;
+  width: 370px;
+  height: 470px;
+  padding-top: 20px;
+}
+.lorem {
+  color: rgb(76, 87, 98);
+  width: 300px;
+  font-size: 15px;
+  text-align: start;
+  padding-left: 10px;
+  line-height: 22px;
+}
+.real {
+  font-size: 25px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.real2 {
+  font-size: 25px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.real3 {
+  font-size: 25px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.flex {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-left: 4px;
+  padding: 60px 60px;
+  background: linear-gradient(to right, #e866a9, #6468ed);
+ 
+}
+
+.price {
+  background-color: white;
+  max-width: 380px;
+  max-height: 150px;
+  border-radius: 9px;
+
+}
+.vas {
+  width: 350px;
+  text-align: center;
+  padding: 20px 60px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  padding-bottom: 106px;
+  padding: 172px 243px;
+}
+.strax {
+  font-size: 14px;
+  font-weight: 500;
+  width: 200px;
+  padding-bottom: 12px;
+}
+.telfon {
+  font-size: 14px;
+  width: 200px;
+}
+.telfon2 {
+  line-height: 30px;
+}
+.nas {
+  font-weight: 700;
+  font-size: 14px;
+}
+.peoplee{
+  background: linear-gradient(to right, #e866a9, #6468ed);
+  display: flex;
+  gap: 20px;
+  padding: 60px 10px;
+}
+.small{
+  background-color: white;
+  width:900px ;
+  height: 120px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+.lure{
+  display: flex;
+  background: linear-gradient(to right, #e866a9, #6468ed);
+  gap: 8px;
+padding-top: 30px;
+padding-bottom: 30px;
+
+
+
+
+}
+.dolor{
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 16px;
+  flex-direction: column;
+  width: 260px;
+  height: 100px;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+@media ( max-width: 345px){
+  .zakaz{
+    display: none;
+  }
+  .avtooo{
+    display: block;
+  }
+  .avv{
+    display: block;
+  }
+  .zakazat{
+    margin-left: 300px;
+  }
+}
+
+.avtooo{
+  display: none;
+  color: black;
+}
+.avv{
+  color: black;
+  display: none;
+}
